@@ -1,4 +1,4 @@
-export default {
+const WZTestJsx =  {
     name: 'WZTestJsx',
     props: {
         text: {
@@ -7,7 +7,7 @@ export default {
         }
     },
     mounted() {
-        console.log(123)
+        console.log(123456)
     },
     render() {
         return (
@@ -15,3 +15,6 @@ export default {
         )
     }
 }
+
+export default WZTestJsx
+// module.exports = WZTestJsx

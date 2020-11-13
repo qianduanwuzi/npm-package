@@ -1,6 +1,6 @@
 {
   "name": "wuzi-package",
-  "version": "0.6.0",
+  "version": "0.6.6",
   "private": false,
   "author": "wuzi",
   "main": "./lib/common.umd.min.js",
@@ -13,7 +13,8 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "npm-check": "^5.9.2",
-    "vue": "^3.0.0"
+    "vue": "^2.6.11",
+    "vue-router": "^3.4.9"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",

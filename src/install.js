@@ -1,9 +1,9 @@
-import WZTest from './components/Test.vue'
+// import WZTest from './components/Test.vue'
 import WZTestJsx from './components/Test.js'
 import Vue from 'vue'
 
 const components = {
-    WZTest,
+    // WZTest,
     WZTestJsx,
 }
 
@@ -17,9 +17,9 @@ function install () {
 // if (typeof window !== 'undefined' && window.Vue) {
 //     install(window.Vue)
 // }
-export default { install , WZTest, WZTestJsx}
+export default { install , WZTestJsx}
 
-export {
-    WZTest,
-    WZTestJsx
-}
+// export {
+//     // WZTest,
+//     WZTestJsx
+// }
